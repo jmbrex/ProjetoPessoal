@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\CSS\newCadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&amp;display=swap" rel="stylesheet">
+    <title>Register Page</title>
+    <script src="..\JS\cadastro.js" defer></script>
+</head>
+<body>
+    <section id="estruturaCadastro">
+        <div id="DadosCadastro">
+            <h2 id="title">Register</h2>
+            <hr>
+            <form action="" id="FormCadastro">
+                <div id="EstruturaForm">  
+                    
+                    <label for="InputName" class="label">Name:</label>
+                    <br>
+                    <input type="text" placeholder="Your Name" id="InputName" class="input" required>
+                    <br><br>
+                    <label for="InputEmail" class="label">Email:</label>
+                    <br>
+                    <input type="email" placeholder="Email" id="InputEmail" class="input" required>
+                    <br><br>
+                    <label for="InputSenha" class="label">Password:</label>
+                    <br>
+                    <input type="password" id="InputSenha" placeholder=" Password" class="input" required>
+                    <br><br>
+                    <label for="InputSenhaConfirm">confirm your Password:</label>
+                    <br>
+                    <input type="password" id="InputSenhaConfirm" placeholder=" Password Confirm" class="input" required>
+                    <br><br>
+                    
+                </div>
+                
+                <button type="submit" id="BTSalvar">Save Access</button>
+                <br>
+                <a href="index.html" id="Voltar">Login Page</a>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
