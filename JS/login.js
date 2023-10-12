@@ -1,4 +1,4 @@
-const User = document.getElementById("InputUser");
+const User = document.getElementById("InputNick");
 const Senha = document.getElementById("InputSenha");
 const BTlogin = document.getElementById("BTlogin");
 const Form = document.getElementById("formLogin");
